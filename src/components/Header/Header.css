@@ -1,0 +1,20 @@
+/* Header specific styles */
+.header-nav a {
+  position: relative;
+}
+
+.header-nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 50%;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.header-nav a:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+/* Hero Banner specific styles */
+.hero-banner {
+  position: relative;
+}
+
+.hero-slide {
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero-cta-button {
+  transform: translateY(0);
+  transition: all 0.3s ease;
+}
+
+.hero-cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.slide-indicator {
+  transition: all 0.3s ease;
+}
+
+.slide-indicator:hover {
+  transform: scale(1.2);
+}

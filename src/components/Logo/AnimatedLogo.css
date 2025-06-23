@@ -1,0 +1,9 @@
+/* AnimatedLogo specific styles can be added here if needed */
+.animated-logo {
+  cursor: pointer;
+}
+
+.animated-logo:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
